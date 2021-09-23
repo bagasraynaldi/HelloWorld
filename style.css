@@ -1,0 +1,90 @@
+: root {
+    --body-bg: rgb(204, 204, 204);
+    --white: #ffffff;
+    --darkWhite: #ccc;
+    --black: #000000;
+    --dark: #615c60;
+    --themeColor: #22b8d1;
+    --pageShadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+/* Font Inclaude*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.page {
+    background: #ffffff;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.page[size="A4"] {
+    width: 21cm;
+    height: 29.7cmm;
+    overflow: hidden;
+}
+
+.bb {
+    border-bottom: 5px solid #ccc;
+}
+
+/* Top Section */
+.top-content {
+    padding-bottom: 15px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.top-left p {
+    margin: 0;
+}
+
+.top-left .graphic-path {
+    height: 40px;
+    position:absolute;
+}
+
+/* User Store Section */
+.store-user {
+    padding-bottom: 25px;
+}
+
+.store-user p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.store-user .address {
+    font-weight: 400;
+}
+
+.store-user h2{
+    color: rgb(15, 141, 53);
+    font-family:'Times New Roman', Times, serif;
+    border-style:solid;
+}
+
+.store-user h1{
+    color:#22b8d1;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.store-user h5{
+    color: #000000;
+    font-family: 'Rajdhani', sans-serif;
+    border-color: #22b8d1;
+    background-color: #22b8d1;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #22b8d1;
+}
